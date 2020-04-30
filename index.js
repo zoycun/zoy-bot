@@ -4,6 +4,6 @@ const bot = new TelegramBot('1232088235:AAF_LN5eRM_4G56EvB5AJEr8Kfyta_87NOA',{po
 
 bot.on('message', msg => {
 
-  bot.sendMessage(msg.chat.id, `Привет "${msg.from.first_name}"`)
+  bot.sendMessage(msg.chat.id, `Привет ${msg.from.first_name}`)
 
 });
